@@ -1,0 +1,20 @@
+<h1>  API in Angular </h1>
+
+ 
+
+<form #userPost="ngForm" (ngSubmit)="onSubmit(userPost.value)">
+
+
+
+  <input type ="number" name="productId" ngModel placeholder="ProductId"> <br> <br>
+
+  <input type ="string" name="prodName" ngModel placeholder="ProductName"> <br> <br>
+
+  <input type ="number" name="price" ngModel placeholder="Price"> <br> <br>
+
+  <input type ="date" name="expDate" ngModel placeholder="expDate"> <br> <br>
+
+  <input type ="date" name="manuDate" ngModel placeholder="Mfg Date"> <br> <br>
+
+  <button type="submit">Submit</button>
+<router-outlet></router-outlet>
